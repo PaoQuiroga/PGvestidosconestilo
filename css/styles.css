@@ -74,7 +74,7 @@ header {
     position: fixed;
     display: flex; 
     width: 100%;
-    height: 100px;
+    height: 85px; 
     background: rgb(238,206,206)
 }
 
@@ -122,13 +122,12 @@ header ul li a {
 }
 
 
-
 /* -----------------------------main ------------------------------------*/
 
 main{
     padding-top:85px ;
 }
-
+ 
 .responsive {
     width: 100%;
     height: auto;
@@ -143,12 +142,12 @@ main{
 
 }
 
+
 .text-p {
     text-align: center;
     padding: 70px;
 
 }
-
 
 
 .options ul {
@@ -257,6 +256,30 @@ footer p {
     font-weight: bold;
     margin: 10px;
     text-decoration: none;
+}
+
+/* ---------------------------------Prendas Unicas--------------------- */
+
+.title3{
+    text-align: left;
+    font-size: 1.3em;
+    padding-left: 20px;
+
+}
+.photo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+} 
+
+.photo img{
+    padding: 20px 0px 30px 30px;
+}
+
+.paragraph{
+    align-self: center;
+    font-size: 1.3em;
+    padding-right: 60px;
+
 }
 
 
