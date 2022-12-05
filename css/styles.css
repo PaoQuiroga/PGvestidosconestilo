@@ -121,6 +121,9 @@ header ul li a {
     text-decoration: none;
 }
 
+h4{
+    font-size: 1.5em;
+}
 
 /* -----------------------------main ------------------------------------*/
 
@@ -149,7 +152,6 @@ main{
 
 }
 
-
 .options ul {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -160,13 +162,13 @@ main{
     padding: 60px;
 }
 
-
 .options ul li a {
     text-decoration: none;
     color: rgb(36, 2, 63);
     font-weight: bold;
     padding: 50px;
 }
+
 
 
 /* -------------------------------footer------------------------- */
@@ -192,7 +194,6 @@ footer p {
     justify-content: space-around;
     padding-top: 10px;
 }
-
 
 .group-icons {
     display: flex;
@@ -254,13 +255,14 @@ footer p {
 
 .return a {
     font-weight: bold;
-    margin: 10px;
+    padding: 20px;
     text-decoration: none;
 }
 
 /* ---------------------------------Prendas Unicas--------------------- */
 
 .title3{
+    font-weight:bold;
     text-align: left;
     font-size: 1.3em;
     padding-left: 20px;
@@ -279,10 +281,26 @@ footer p {
     align-self: center;
     font-size: 1.3em;
     padding-right: 60px;
-
 }
 
+/* -------------------------------iniciar sesión--------------------- */
 
+.dropdown-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px 0px 30px 60px; 
+}
+
+.form-check-input{
+    margin-top: 0px;
+    width: auto;
+}
+
+.dropdown-item{
+    text-decoration: none;
+    margin: 20px;  
+}
 
 /* ----------------------------------Contacto------------------------- */
 
@@ -294,7 +312,7 @@ h2 {
 
 }
 
-form {
+.form-contac{
     width: 35%;
     margin: 30px;
     padding: 40px;
@@ -304,7 +322,6 @@ form {
 
 label {
     font-size: 20px;
-    display: block;
     width: 100%;
 }
 
@@ -400,8 +417,40 @@ input:hover {
 }
 
 
+/* ------------------prendas únicas---------------- */
+
+.title3{
+    text-align: center;
+    padding: 0%;
+}
 
 
+.photo{
+    display: grid;
+    grid-template-columns: 1fr;
+} 
 
+
+.photo img{
+    justify-self: center;
+    padding: 0px;
+}
+
+.paragraph{
+    text-align: center;
+
+}
+
+/* ------------------iniciar sesión---------------- */
+
+.dropdown-menu{
+    padding: 30px 0px 30px 30px; 
+}
+
+/* ------------------contacto--------------------- */
+
+.form-contac{
+    width: 50%;
+}
 
 }
